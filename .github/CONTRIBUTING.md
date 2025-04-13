@@ -40,4 +40,4 @@ The following categories are currently used by cupidcr4wl:
 - Camming
 - Escort
 
-If contributing via pull request, please read the [accuracy implementations]() section in the documentation to understand how to choose HTML snippets for `check_text` and `not_found_text` correctly and accurately.
+If contributing via pull request, please read the [accuracy implementations](https://github.com/OSINTI4L/cupidcr4wl/wiki/Accuracy-Implementations) section in the documentation to understand how to choose HTML snippets for `check_text` and `not_found_text` correctly and accurately.
