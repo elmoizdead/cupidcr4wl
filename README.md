@@ -2,7 +2,7 @@
 
 # 💘 cupidcr4wl 💘
 
-cupidcr4wl is an open-source intelligence username search tool that crawls adult content platforms to see if a targeted account or person is present. The need for a tool of this manner derived from missing persons investigations where dating, adult video/photo platforms, and concerns of human trafficking were found relevant.
+cupidcr4wl is an open-source intelligence username and phone number search tool that crawls adult content platforms to see if a targeted account or person is present. The need for a tool of this manner derived from missing persons investigations where dating, adult video/photo platforms, and concerns of human trafficking were found relevant.
 
 
 cupidcr4wl searches the following platforms:
