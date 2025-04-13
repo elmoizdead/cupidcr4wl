@@ -18,7 +18,7 @@ The site list that cupidcr4wl utilizes for searching is updated for accuracy and
 
 cupidcr4wl **will** search and return results for platforms that host content for mature adult audiences. You are expected to use this tool in accordance with the laws and regulations in your respective jurisdiction(s). If while using cupidcr4wl you believe that you have discovered a platform hosting illegal content, you can utilize the [law enforcement reporting resources] section to report it.
 
-## [Installation](#installation) | [Usage](#usage) | [Contributing] | [Documentation]
+## [Installation](#installation) | [Usage](#usage) | [Contributing](https://github.com/OSINTI4L/cupidcr4wl/blob/main/.github/CONTRIBUTING.md) | [Documentation]
 
 </div>
 
