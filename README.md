@@ -51,49 +51,65 @@ cupidcr4wl **will** search and return results for platforms that host content fo
 &nbsp;&nbsp;&nbsp;&nbsp;```python3 cc.py -h``` or ```python3 cc.py --help```
 
 ```
-usage: cc.py [-h] [-u USERNAME] [--export-results] [--debug] [--sites] [--export-sites]
+usage: cc.py [-h] [-p PHONENUMBER] [-u USERNAME] [--export-results] [--debug]
+             [--username-sites] [--phone-number-sites]
 
-A tool for checking if a username exists across various platforms.
+A tool for checking if a username or phone number exists across various adult content
+platforms.
 
 options:
-  -h, --help        show this help message and exit
-                    
-  -u USERNAME       Enter a username or multiple usernames (separated by commas) to search.
-                    
-  --export-results  Search results will be exported to a text file named 'cc_results.txt' in
-                    the current working directory.
-                    
-  --debug           Debug mode shows all results, HTTP response codes, check_text/not_found_text
-                    matches, timeouts, and errors for each site checked.
-                    
-  --sites           Prints all sites that cupidcr4wl will search.
-                    
-  --export-sites    Exports the list of sites that cupidcr4wl will search to a text file
-                    named 'cc_sitelist.txt' in the current working directory.
+  -h, --help            show this help message and exit
+                        
+  -p PHONENUMBER        Enter a phone number or multiple phone numbers (separated by commas)
+                        to search.
+                        
+  -u USERNAME           Enter a username or multiple usernames (separated by commas) to
+                        search.
+                        
+  --export-results      Search results will be exported to a text file named
+                        'cc_results.txt' in the current working directory.
+                        
+  --debug               Debug mode shows all results, HTTP response codes,
+                        check_text/not_found_text matches, timeouts, and errors for each
+                        site checked.
+                        
+  --username-sites      Prints all sites that cupidcr4wl will search by username.
+                        
+  --phone-number-sites  Prints all sites that cupidcr4wl will search by phone number.
 ```
 2) To perform a search of a username:
 
 &nbsp;&nbsp;&nbsp;&nbsp;```python3 cc.py -u username```
 
->Due to how different platforms structure their usernames it is recommended to run your target username in multiple different variations. E.g., ```janedoe,jane_doe,jane-doe,jdoe```
+>Due to how different platforms structure their usernames it is recommended to run your target username in multiple different variations. E.g., ```janedoe``` ```jane_doe``` ```jane-doe``` ```jdoe```
 
-3) To perform a search of multiple usernames separate them by commas (with no spaces):
+3) To perform a search of multiple usernames simultaneously separate them by commas (with no spaces):
 
 &nbsp;&nbsp;&nbsp;&nbsp;```python3 cc.py -u username1,username2,username3```
 
-4) To export a copy of the search results to a text named 'cc_results.txt' in the current working directory:
+To perform a serach of a phone number:
+
+&nbsp;&nbsp;&nbsp;&nbsp; ```python3 cc.py -p 1234567890```
+
+>Due to how different platforms structure their usernames it is recommended to run your target username in multiple different variations. E.g., ```'123 456-7890'``` ```1234567890``` ```123-456-7890```
+
+4) To perform a search of multiple phone numbers simultaneously separate them by commas (with no spaces):
+
+&nbsp;&nbsp;&nbsp;&nbsp;```python3 cc.py -p '123 456-7890',1234567890,123-456-7890```
+
+5) To export a copy of the search results to a text named 'cc_results.txt' in the current working directory:
 
 &nbsp;&nbsp;&nbsp;&nbsp;```python3 cc.py -u username --export-results```
 
-5) To view a list of all sites that cupidcr4wl will search:
+6) To view a list of all sites that cupidcr4wl will search by username:
 
-&nbsp;&nbsp;&nbsp;&nbsp;```python3 cc.py --sites```
+&nbsp;&nbsp;&nbsp;&nbsp;```python3 cc.py --username-sites```
 
-6) To export the list of all sites that cupidcr4wl will search to a text file named "cc_sitelist.txt" in the current working directory:
+7) To view a list of all sites that cupidcr4wl will search by phone number:
 
-&nbsp;&nbsp;&nbsp;&nbsp;```python3 cc.py --export-sites```
+&nbsp;&nbsp;&nbsp;&nbsp;```python3 cc.py --phone-number-sites```
 
-7) To run cupidcr4wl in debug mode to test for false positives/negatives and display timeouts/errors:
+8) To run cupidcr4wl in debug mode to test for false positives/negatives and display timeouts/errors add the ```--debug``` argument:
 
 &nbsp;&nbsp;&nbsp;&nbsp;```python3 cc.py -u username --debug```
 
