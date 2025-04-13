@@ -14,7 +14,7 @@ Please submit your contribution in the [issues section](https://github.com/OSINT
 
 **The hard way:**
 
- Submit a pull-request to the [websites.json](https://github.com/OSINTI4L/cupidcr4wl/blob/main/websites.json) file or [phonenumbers.json](https://github.com/OSINTI4L/cupidcr4wl/blob/main/phonenumbers.json) file.
+ Submit a pull-request to the [usernames.json](https://github.com/OSINTI4L/cupidcr4wl/blob/main/websites.json) file or [phonenumbers.json](https://github.com/OSINTI4L/cupidcr4wl/blob/main/phonenumbers.json) file.
 
 The format will require the following:
 
