@@ -113,4 +113,4 @@ To perform a search of a phone number:
 
 &nbsp;&nbsp;&nbsp;&nbsp;```python3 cc.py -u username --debug```
 
-&nbsp;&nbsp;&nbsp;&nbsp;(more can be read on this mode in the [documentation](https://github.com/OSINTI4L/cupidcr4wl/wiki/Usage-Options) section.
+&nbsp;&nbsp;&nbsp;&nbsp;(more can be read on this mode in the [documentation](https://github.com/OSINTI4L/cupidcr4wl/wiki/Usage-Options) section)
