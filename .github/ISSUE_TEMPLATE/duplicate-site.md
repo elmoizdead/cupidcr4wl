@@ -2,7 +2,7 @@
 name: Duplicate site
 about: Report a duplicate site listed by cupidcr4wl
 title: Report a duplicate site listed by cupidcr4wl
-labels: ''
+labels: duplicate
 assignees: OSINTI4L
 
 ---

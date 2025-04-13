@@ -2,7 +2,7 @@
 name: Site Submission
 about: Submit a site to be added to the cupidcr4wl search list
 title: Site submission
-labels: ''
+labels: Site Submission
 assignees: OSINTI4L
 
 ---

@@ -2,7 +2,7 @@
 name: Inaccurate Results
 about: Report an inaccurate result returned by cupidcr4wl
 title: Inaccurate results
-labels: ''
+labels: Inaccurate Results
 assignees: OSINTI4L
 
 ---
