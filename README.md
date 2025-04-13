@@ -81,23 +81,23 @@ options:
 
 &nbsp;&nbsp;&nbsp;&nbsp;```python3 cc.py -u username```
 
->Due to how different platforms structure their usernames it is recommended to run your target username in multiple different variations. E.g., ```janedoe``` ```jane_doe``` ```jane-doe``` ```jdoe```
+>Due to how different platforms structure their URL parameters it is recommended to run your target username in multiple different variations. E.g., ```janedoe``` ```jane_doe``` ```jane-doe``` ```jdoe```
 
 3) To perform a search of multiple usernames simultaneously separate them by commas (with no spaces):
 
 &nbsp;&nbsp;&nbsp;&nbsp;```python3 cc.py -u username1,username2,username3```
 
-To perform a serach of a phone number:
+To perform a search of a phone number:
 
 &nbsp;&nbsp;&nbsp;&nbsp; ```python3 cc.py -p 1234567890```
 
->Due to how different platforms structure their usernames it is recommended to run your target username in multiple different variations. E.g., ```'123 456-7890'``` ```1234567890``` ```123-456-7890```
+>Due to how different platforms structure their URL parameters it is recommended to run your target username in multiple different variations. E.g., ```'123 456-7890'``` ```1234567890``` ```123-456-7890```
 
 4) To perform a search of multiple phone numbers simultaneously separate them by commas (with no spaces):
 
 &nbsp;&nbsp;&nbsp;&nbsp;```python3 cc.py -p '123 456-7890',1234567890,123-456-7890```
 
-5) To export a copy of the search results to a text named 'cc_results.txt' in the current working directory:
+5) To export a copy of the search results to a text file named 'cc_results.txt' in the current working directory:
 
 &nbsp;&nbsp;&nbsp;&nbsp;```python3 cc.py -u username --export-results```
 
