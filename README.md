@@ -7,7 +7,7 @@ cupidcr4wl is an open-source intelligence username and phone number search tool 
 
 cupidcr4wl searches the following platforms:
 
-Payment and Gifting | Social | Dating and hook-up | Fetish | Adult video and photo | Camming | Escort
+```Payment and Gifting | Social | Dating and hook-up | Fetish | Adult video and photo | Camming | Escort```
 
 Please see the [contributing] section if you find cupidcr4wl is returning false positive/negative results so it can be fixed. You can also submit a site to be added to the cupidcr4wl search list!
 
