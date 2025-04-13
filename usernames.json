@@ -1,0 +1,1787 @@
+{
+    "websites": {
+	"Cash App": {
+            "url": "https://cash.app/${username}",
+            "check_text": [
+                "on Cash App</title>"
+            ],
+              "not_found_text": [
+                "Page Not Found</title>"
+            ],
+            "category": "payment and gifting"
+        },
+	"Venmo": {
+            "url": "https://account.venmo.com/u/{username}",
+            "check_text": [
+                "robots"
+            ],
+              "not_found_text": [
+                "<title>Venmo | Page Not Found</title>"
+            ],
+            "category": "payment and gifting"
+        },
+	"Buy Me A Coffee": {
+            "url": "https://buymeacoffee.com/{username}",
+            "check_text": [
+                "og:title"
+            ],
+              "not_found_text": [
+                "<title inertia>Not found"
+            ],
+            "category": "payment and gifting"
+        },
+	"All Things Worn (underwear sales)": {
+            "url": "https://www.allthingsworn.com/profile/{username}",
+            "check_text": [
+                "tab=followers",
+		"tab=following",
+		">Gender:"
+            ],
+              "not_found_text": [
+                "Sell Used Panties, Underwear and",
+		"<li>This member has either changed"
+            ],
+            "category": "payment and gifting"
+        },
+	"Linktree": {
+            "url": "https://linktr.ee/{username}",
+            "check_text": [
+                "og:title"
+            ],
+              "not_found_text": [
+                "404"
+            ],
+            "category": "social"
+        },
+	"Milkshake": {
+            "url": "https://msha.ke/{username}/",
+            "check_text": [
+                "Milkshake Website Builder</title>"
+            ],
+              "not_found_text": [
+                "<title>Well, this is awkward...</title>"
+            ],
+            "category": "social"
+        },
+	"Get All My Links": {
+            "url": "https://getallmylinks.com/{username}",
+            "check_text": [
+                "<title>GetAllMyLinks"
+            ],
+              "not_found_text": [
+                "<title>GetAllMyLinks - 404</title>"
+            ],
+            "category": "social"
+        },
+	"All My Links": {
+            "url": "https://allmylinks.com/{username}",
+            "check_text": [
+                "| AllMyLinks</title>"
+            ],
+              "not_found_text": [
+                "<title>Not Found"
+            ],
+            "category": "social"
+        },
+	"Bybio": {
+            "url": "https://bybio.co/{username}",
+            "check_text": [
+                "BYBIO</title>"
+            ],
+              "not_found_text": [
+                "404 not found",
+		"<title>Bybio"
+            ],
+            "category": "social"
+         },
+                "Reddit": {
+            "url": "https://www.reddit.com/user/{username}/",
+            "check_text": [
+                "follow",
+                "posts",
+                "karma",
+                "cake day",
+		"posted yet"
+            ],
+              "not_found_text": [
+                "sorry, nobody on reddit goes by that name."
+            ],
+            "category": "social"
+        },
+	"Snapchat": {
+            "url": "https://snapchat.com/add/{username}",
+            "check_text": [
+                "Header_displayNameText",
+                "Add me on snapchat!"
+            ],
+              "not_found_text": [
+                "NoContent_title",
+                "Sorry,"
+            ],
+            "category": "social"
+        },
+	"Telegram": {
+            "url": "https://t.me/{username}",
+            "check_text": [
+                "tgme_profile_title",
+		"tgme_page_extra"
+            ],
+              "not_found_text": [
+                "noindex, nofollow",
+		"a new era of messaging"
+            ],
+            "category": "social"
+        },
+	"Tumblr": {
+            "url": "https://www.tumblr.com/{username}",
+            "check_text": [
+                "follow",
+                "posts"
+            ],
+              "not_found_text": [
+                "whatever you were looking for"
+            ],
+            "category": "social"
+        },
+	"Deviantart": {
+            "url": "https://www.deviantart.com/{username}",
+            "check_text": [
+                "favourites",
+                "gallery"
+            ],
+              "not_found_text": [
+                "llama not found"
+            ],
+            "category": "social"
+        },
+	"Wattpad": {
+            "url": "https://www.wattpad.com/user/{username}",
+            "check_text": [
+                "rss -"
+            ],
+              "not_found_text": [
+                "wattpad - where stories live"
+            ],
+            "category": "social"
+        },
+	"Fur Affinity": {
+            "url": "https://www.furaffinity.net/user/{username}",
+            "check_text": [
+                "<title>Userpage of"
+            ],
+              "not_found_text": [
+                "<title>System Error</title>"
+            ],
+            "category": "social"
+        },
+	"Alua": {
+            "url": "https://alua.com/{username}",
+            "check_text": [
+                "free follow",
+                "invites you to join her on Alua!",
+                "invites you to join him on Alua!"
+            ],
+              "not_found_text": [
+                "Alua connects creators and fans through our unique social platform"
+            ],
+            "category": "social"
+         },
+                "Fancentro": {
+            "url": "https://fancentro.com/{username}",
+            "check_text": [
+                "Subscribe"
+            ],
+              "not_found_text": [
+                "Porn Videos"
+            ],
+            "category": "social"
+        },
+	"Clapper App": {
+            "url": "https://www.clapperapp.com/{username}",
+            "check_text": [
+                "following",
+                "followers",
+                "likes"
+            ],
+              "not_found_text": [
+                "couldn't find this account"
+            ],
+            "category": "social"
+        },
+	"NiteFlirt": {
+            "url": "https://www.niteflirt.com/search?text={username}",
+            "check_text": [
+                "send text",
+                "send mail",
+                "listen now",
+                "/profile/"
+            ],
+              "not_found_text": [
+                "We're sorry, we were not able to find"
+            ],
+            "category": "social"
+         },
+		"Tinder": {
+            "url": "https://www.tinder.com/@{username}",
+            "check_text": [
+                "(@{username}) | Tinder</title>",
+                "Tinder</title><meta"
+            ],
+              "not_found_text": [
+                "<title>Page Not Found</title>",
+                "Tinder | Dating, Make Friends &amp"
+            ],
+            "category": "dating and hook-up"
+        },
+	"Swapfinder": {
+            "url": "https://swapfinder.com/profile/{username}",
+            "check_text": [
+                "Profile on Swapfinder.com</title>"
+            ],
+              "not_found_text": [
+                "Swapfinder.com</title>",
+		"<title>Swapfinder - Where singles come out to play!</title>"
+            ],
+            "category": "dating and hook-up"
+        },
+	"Date-Fans": {
+            "url": "https://date-fans.com/profile/{username}",
+            "check_text": [
+                "| Date-Fans</title>"
+            ],
+              "not_found_text": [
+                "<title>DateFans"
+            ],
+            "category": "dating and hook-up"
+        },
+	"Tagged": {
+            "url": "https://www.tagged.com/{username}",
+            "check_text": [
+                "https://tagged.com/{username}",
+                "robots"
+            ],
+              "not_found_text": [
+                "Tagged makes it easy",
+                "meet New People",
+                "verify-v1"
+            ],
+            "category": "dating and hook-up"
+         },
+                "live.Xdating": {
+            "url": "https://live.xdating.com/{username}/bio",
+            "check_text": [
+                "followers"
+            ],
+              "not_found_text": [
+                "error, page not found"
+            ],
+            "category": "dating and hook-up"
+        },
+	"MenNation": {
+            "url": "https://www.mennation.com/profile/{username}",
+            "check_text": [
+                "/profile/"
+            ],
+              "not_found_text": [
+                "sign up for free",
+		"Find Intimate Encounters"
+            ],
+            "category": "dating and hook-up"
+        },
+	"FriendFinder-X": {
+            "url": "https://www.friendfinder-x.com/profile/{username}",
+            "check_text": [
+                ">Profile</a>"
+            ],
+              "not_found_text": [
+                "https://adultfriendfinder.com/p/register.cgi",
+                "Sign up for free at AdultFriendFinder",
+                "register, sign up, join, AdultFriendFinder",
+		"The World's Largest Casual Personals Site."
+            ],
+            "category": "dating and hook-up"
+        },
+	"BDSM Singles": {
+            "url": "https://www.bdsmsingles.com/members/{username}",
+            "check_text": [
+                "<title>Profile"
+            ],
+              "not_found_text": [
+                "bdsmsingles.com/?language"
+            ],
+            "category": "dating and hook-up"
+        },
+	"Find A Femdom": {
+            "url": "https://app.findafemdom.com/members/{username}",
+            "check_text": [
+                "<title>Profile"
+            ],
+              "not_found_text": [
+                "findafemdom.com/?language"
+            ],
+            "category": "dating and hook-up"
+        },
+	"Love A Pirsoner": {
+            "url": "https://loveaprisoner.com/?s={username}",
+            "check_text": [
+                "search-results elementor",
+                "/member-profile/"
+            ],
+              "not_found_text": [
+                "<p>It seems we can"
+            ],
+            "category": "dating and hook-up"
+        },
+	"Inmate Classified (search)": {
+            "url": "https://www.inmate.com/?s={username}&post_type=inmate",
+            "check_text": [
+                "profile-block Male"
+            ],
+              "not_found_text": [
+                "search-no-results"
+            ],
+            "category": "dating and hook-up"
+        },
+	"Women Behind Bars (search)": {
+            "url": "https://womenbehindbars.com/?s={username}",
+            "check_text": [
+                "</span> Read More"
+            ],
+              "not_found_text": [
+                "<p>Sorry, but nothing"
+            ],
+            "category": "dating and hook-up"
+        },
+	"Inmate Passions": {
+            "url": "https://inmatepassions.com/dating/{username}/",
+            "check_text": [
+                "<title>Inmate Passions:"
+            ],
+              "not_found_text": [
+                "<strong>WHAT?"
+            ],
+            "category": "dating and hook-up"
+        },
+	"Love Her Feet": {
+            "url": "https://www.loveherfeet.com/tour/search.php?query={username}&f=all",
+            "check_text": [
+                "item-title"
+            ],
+              "not_found_text": [
+                "No videos or photos were found."
+            ],
+            "category": "fetish"
+        },
+	"Sinful Feet": {
+            "url": "https://sinfulfeet.com/models/{username}.html",
+            "check_text": [
+                "<TITLE>SinfulFeet | "
+            ],
+              "not_found_text": [
+                "Page not found"
+            ],
+            "category": "fetish"
+        },
+	"Foot Fetish Beauties": {
+            "url": "https://footfetishbeauties.com/tour/models/{username}.html",
+            "check_text": [
+                "<TITLE>FootFetishBeauties"
+            ],
+              "not_found_text": [
+                "Page not found"
+            ],
+            "category": "fetish"
+        },
+	"Fetish.com": {
+            "url": "https://www.fetish.com/p/{username}/",
+            "check_text": [
+                ">Send message</span>",
+                "<h3>Interested in",
+                "About me",
+                "This profile is only visible for users who are logged in</h2>"
+            ],
+              "not_found_text": [
+                "<title>404 Not Found"
+            ],
+            "category": "fetish"
+        },
+	"Playboy App": {
+            "url": "https://www.playboy.com/app/{username}",
+            "check_text": [
+                "exclusive content on Playboy | The Playboy Club<title>"
+            ],
+              "not_found_text": [
+                "<title>Not Found"
+            ],
+            "category": "adult video and photo"
+        },
+	"RealGfPorn (user)": {
+            "url": "https://www.realgfporn.com/user/{username}",
+            "check_text": [
+                "Profile - Real Girlfriend Porn</title>"
+            ],
+              "not_found_text": [
+                "404 - page not found"
+            ],
+            "category": "adult video and photo"
+        },
+	"BabesDirectory": {
+            "url": "https://babesdirectory.online/profile/{username}",
+            "check_text": [
+                "BIO, Wiki, News"
+            ],
+              "not_found_text": [
+                "<title>Babe not found 404"
+            ],
+            "category": "adult video and photo"
+        },
+	"Boobpedia": {
+            "url": "https://www.boobpedia.com/wiki/index.php?title=Special:Search&profile=all&search={username}&fulltext=1",
+            "check_text": [
+                "Page title matches"
+            ],
+              "not_found_text": [
+                "There were no results matching the query."
+            ],
+            "category": "adult video and photo"
+        },
+	"Fansify": {
+            "url": "https://fansify.co.uk/{username}",
+            "check_text": [
+                "'s profile</title>"
+            ],
+              "not_found_text": [
+                "<title>Fansify | Join"
+            ],
+            "category": "adult video and photo"
+        },
+	"Pornhub (pornstars)": {
+            "url": "https://www.pornhub.com/pornstar/{username}",
+            "check_text": [
+                "<div id=\"avatarPicture\">"
+            ],
+              "not_found_text": [
+                "This account doesn’t exist",
+                "Try searching for another.",
+                "Error Page Not Found",
+                "<title>Page Not Found</title>",
+                "<title>Top Pornstars and Models In Full-Length Free Sex Videos"
+            ],
+            "category": "adult video and photo"
+        },
+        "Pornhub (models)": {
+            "url": "https://www.pornhub.com/model/{username}",
+            "check_text": [
+                "Model Rank            </div>",
+                "add friend"
+            ],
+              "not_found_text": [
+                "This account doesn’t exist",
+                "Try searching for another.",
+                "Error Page Not Found",
+                "<title>Page Not Found</title>",
+                "<title>Top Pornstars and Models In Full-Length Free Sex Videos"
+            ],
+            "category": "adult video and photo"
+         },
+        "Pornhub (users)": {
+            "url": "https://www.pornhub.com/users/{username}",
+            "check_text": [
+                "<title>{username}",
+                "Profile - Pornhub.com</title>"
+            ],
+              "not_found_text": [
+                "This account doesn’t exist",
+                "Try searching for another.",
+                "Error Page Not Found",
+                "<title>Page Not Found</title>"
+            ],
+            "category": "adult video and photo"
+         },
+        "Pornhub (channels)": {
+            "url": "https://www.pornhub.com/channels/{username}",
+            "check_text": [
+                "<title>{username}",
+                "Profile - Pornhub.com</title>",
+                "joined"
+            ],
+              "not_found_text": [
+                "This account doesn’t exist",
+                "Try searching for another.",
+                "Error Page Not Found",
+                "<title>Page Not Found</title>"
+            ],
+            "category": "adult video and photo"
+         },
+        "XVIDEOS (pornstars)": {
+            "url": "https://www.xvideos.com/pornstars/{username}",
+            "check_text": [
+                "<title>{username} - Channel page - XVIDEOS.COM</title>",
+                "<span>Check out {username}",
+                "body--profile profile-page"
+            ],
+              "not_found_text": [
+                "This account doesn’t exist",
+                "Try searching for another.",
+                "Error Page Not Found",
+                "<title>Page Not Found</title>",
+                "<title>Not found - XVIDEOS.COM</title>",
+                "body--http-status http-error-page status-404"
+            ],
+            "category": "adult video and photo"
+         },
+        "XVIDEOS (users/channels)": {
+            "url": "https://www.xvideos.com/{username}",
+            "check_text": [
+                "<title>{username} - Channel page - XVIDEOS.COM</title>",
+                "<span>Check out {username}",
+                "body--profile profile-page"
+            ],
+              "not_found_text": [
+                "This account doesn’t exist",
+                "Try searching for another.",
+                "Error Page Not Found",
+                "<title>Page Not Found</title>",
+                "<title>Not found - XVIDEOS.COM</title>",
+                "body--http-status http-error-page status-404"
+            ],
+            "category": "adult video and photo"
+         },
+        "XVIDEOS (profiles)": {
+            "url": "https://www.xvideos.com/profiles/{username}",
+            "check_text": [
+                "<title>{username} - Channel page - XVIDEOS.COM</title>",
+                "<span>Check out {username}",
+                "body--profile profile-page"
+            ],
+              "not_found_text": [
+                "This account doesn’t exist",
+                "Try searching for another.",
+                "Error Page Not Found",
+                "<title>Page Not Found</title>",
+                "<title>Not found - XVIDEOS.COM</title>",
+                "body--http-status http-error-page status-404"
+            ],
+            "category": "adult video and photo"
+        },
+	"XVIDEOS Red": {
+            "url": "https://www.xvideos.red/{username}",
+            "check_text": [
+                "video views</small>",
+                "Subscribe</span>",
+                "Videos</span>"
+            ],
+              "not_found_text": [
+                "<span>Learn more</span>"
+            ],
+            "category": "adult video and photo"
+         },
+        "Redtube (pornstars)": {
+            "url": "https://www.redtube.com/pornstar/{username}",
+            "check_text": [
+                "index, follow",
+                "Bio"
+            ],
+              "not_found_text": [
+                "This account doesn’t exist",
+                "Try searching for another.",
+                "Error Page Not Found",
+                "<title>Page Not Found</title>"
+            ],
+            "category": "adult video and photo"
+         },
+        "Redtube (users)": {
+            "url": "https://www.redtube.com/users/{username}",
+            "check_text": [
+                "<title>{username}&apos;s Profile - RedTube</title>",
+                "noindex, follow"
+            ],
+              "not_found_text": [
+                "This account doesn’t exist",
+                "Try searching for another.",
+                "Error Page Not Found",
+                "<title>Page Not Found</title>",
+                "body--http-status http-error-page status-404"
+            ],
+            "category": "adult video and photo"
+         },
+        "Redtube (channels)": {
+            "url": "https://www.redtube.com/channels/{username}",
+            "check_text": [
+                "<title>{username} Channel Page: Free Porn Movies | Redtube</title>",
+                "index, follow"
+            ],
+              "not_found_text": [
+                "This account doesn’t exist",
+                "Try searching for another.",
+                "Error Page Not Found",
+                "<title>Page Not Found</title>",
+                "body--http-status http-error-page status-404"
+            ],
+            "category": "adult video and photo"
+         },
+                "XNXX (pornstars)": {
+            "url": "https://www.xnxx.com/pornstar/{username}",
+            "check_text": [
+                "Model page"
+            ],
+              "not_found_text": [
+                "This account doesn’t exist",
+                "Try searching for another.",
+                "Error Page Not Found",
+                "<title>Page Not Found</title>",
+                "body--http-status http-error-page status-404",
+                "THIS PROFILE DOESN",
+                "Unknown profile"
+            ],
+            "category": "adult video and photo"
+         },
+                "XNXX (porn-maker)": {
+            "url": "https://www.xnxx.com/porn-maker/{username}",
+            "check_text": [
+                "Porn Maker"
+            ],
+              "not_found_text": [
+                "This account doesn’t exist",
+                "Try searching for another.",
+                "Error Page Not Found",
+                "<title>Page Not Found</title>",
+                "body--http-status http-error-page status-404",
+                "THIS PROFILE DOESN",
+                "Unknown profile"
+            ],
+            "category": "adult video and photo"
+         },
+                "XHAMSTER (users)": {
+            "url": "https://www.xhamster.com/users/{username}",
+            "check_text": [
+                "{username}",
+                "xHamster</title>"
+            ],
+              "not_found_text": [
+                "This account doesn’t exist",
+                "Try searching for another.",
+                "Error Page Not Found",
+                "<title>Page Not Found</title>",
+                "User not found"
+            ],
+            "category": "adult video and photo"
+        },
+	"nsfw.xxx (search)": {
+            "url": "https://nsfw.xxx/search?q={username}",
+            "check_text": [
+                "</b> search on reddit"
+            ],
+              "not_found_text": [
+                "<h1>No posts found, try another search</h1>"
+            ],
+            "category": "adult video and photo"
+        },
+	"nsfw.xxx (user)": {
+            "url": "https://nsfw.xxx/user/{username}",
+            "check_text": [
+                "Porn Pictures and"
+            ],
+              "not_found_text": [
+                "user is not found"
+            ],
+            "category": "adult video and photo"
+         },
+                "Motherless": {
+            "url": "https://www.motherless.com/m/{username}",
+            "check_text": [
+                "Add friend"
+            ],
+              "not_found_text": [
+                "Oh damn!"
+            ],
+            "category": "adult video and photo"
+         },
+                "Hdporn92 (actors)": {
+            "url": "https://www.hdporn92.com/actor/{username}/",
+            "check_text": [
+                "Video Actor"
+            ],
+              "not_found_text": [
+                "Page not found"
+            ],
+            "category": "adult video and photo"
+         },
+                "RedGIFs": {
+            "url": "https://www.redgifs.com/users/{username}",
+            "check_text": [
+                "about"
+            ],
+              "not_found_text": [
+                "robots"
+            ],
+            "category": "adult video and photo"
+         },
+                "Sheer": {
+            "url": "https://www.sheer.com/{username}",
+            "check_text": [
+                "FOLLOW"
+            ],
+              "not_found_text": [
+                "404",
+                "Hmm, something's wrong."
+            ],
+            "category": "adult video and photo"
+         },
+                "JustFor.Fans": {
+            "url": "https://justforfans.com/{username}",
+            "check_text": [
+                "Member since"
+            ],
+              "not_found_text": [
+                "Filter By Gender"
+            ],
+            "category": "adult video and photo"
+         },
+                "PornMZ": {
+            "url": "https://www.pornmz.com/pmvideo/s/{username}",
+            "check_text": [
+                "Newest"
+            ],
+              "not_found_text": [
+                "Page not found"
+            ],
+            "category": "adult video and photo"
+        },
+	"Slushy": {
+            "url": "https://www.slushy.com/{username}",
+            "check_text": [
+                "chat with",
+                "subscribe"
+            ],
+              "not_found_text": [
+                "<title>undefined - Slushy</title>"
+            ],
+            "category": "adult video and photo"
+         },
+                "YouPorn (channels)": {
+            "url": "https://www.youporn.com/channel/{username}/",
+            "check_text": [
+                "ranking"
+            ],
+              "not_found_text": [
+                "Free Videos From"
+            ],
+            "category": "adult video and photo"
+         },
+                "YouPorn (pornstars)": {
+            "url": "https://www.youporn.com/pornstar/{username}/",
+            "check_text": [
+                "porn videos"
+            ],
+              "not_found_text": [
+                "WE TRIED",
+                "WE REALLY DID",
+                "404 Page Not Found"
+            ],
+            "category": "adult video and photo"
+         },
+                "YouPorn (uservids)": {
+            "url": "https://www.youporn.com/uservids/{username}/",
+            "check_text": [
+                "free porn videos"
+            ],
+              "not_found_text": [
+                "WE TRIED",
+                "WE REALLY DID",
+                "404 Page Not Found"
+            ],
+            "category": "adult video and photo"
+        },
+	"FrolicMe (models)": {
+            "url": "https://www.frolicme.com/models/{username}/",
+            "check_text": [
+                "naughty content featuring"
+            ],
+              "not_found_text": [
+                "page not found"
+            ],
+            "category": "adult video and photo"
+         },
+                "Uviu": {
+            "url": "https://uviu.com/model/{username}",
+            "check_text": [
+                "<span>Videos</span>"
+            ],
+              "not_found_text": [
+                "<title>Page Not Found</title>"
+            ],
+            "category": "adult video and photo"
+        },
+	"Fanvue": {
+            "url": "https://www.fanvue.com/{username}",
+            "check_text": [
+                "posts",
+                "show more"
+            ],
+              "not_found_text": [
+                "page not found"
+            ],
+            "category": "adult video and photo"
+        },
+	"AdmireMe.VIP": {
+            "url": "https://admireme.vip/{username}/",
+            "check_text": [
+                "subscribe for",
+                "post count"
+            ],
+              "not_found_text": [
+                "page not found"
+            ],
+            "category": "adult video and photo"
+        },
+	"Tube8 (pornstars)": {
+            "url": "https://www.tube8.com/pornstar/{username}/",
+            "check_text": [
+                "Porn Videos and XXX Movies | Tube8.com</title>"
+            ],
+              "not_found_text": [
+                "404 Page Not Found"
+            ],
+            "category": "adult video and photo"
+        },
+	"Tube8 (channels)": {
+            "url": "https://www.tube8.com/channel/{username}/",
+            "check_text": [
+                "Channel for Free Porn | Tube8.com</title>"
+            ],
+              "not_found_text": [
+                "<title>Porn Channels"
+            ],
+            "category": "adult video and photo"
+        },
+	"Raw White Meat": {
+            "url": "https://rawwhitemeat.com/video_tag/{username}/",
+            "check_text": [
+                "post-title"
+            ],
+              "not_found_text": [
+                "Page Not Found"
+            ],
+            "category": "adult video and photo"
+        },
+	"My POV Fam": {
+            "url": "https://mypovfam.com/video_tag/{username}/",
+            "check_text": [
+                "post-title"
+            ],
+              "not_found_text": [
+                "Page Not Found"
+            ],
+            "category": "adult video and photo"
+        },
+	"Pevert POV": {
+            "url": "https://pervertpov.com/video_tag/{username}/",
+            "check_text": [
+                "post-title"
+            ],
+              "not_found_text": [
+                "Page Not Found"
+            ],
+            "category": "adult video and photo"
+        },
+	"Sluts Around Town": {
+            "url": "https://slutsaroundtown.com/video_tag/{username}/",
+            "check_text": [
+                "post-title"
+            ],
+              "not_found_text": [
+                "Page Not Found"
+            ],
+            "category": "adult video and photo"
+        },
+	"Passions Only": {
+            "url": "https://passionsonly.com/video_tag/{username}/",
+            "check_text": [
+                "post-title"
+            ],
+              "not_found_text": [
+                "Page Not Found"
+            ],
+            "category": "adult video and photo"
+        },
+	"MiLFUCKD": {
+            "url": "https://milfuckd.com/performers/{username}/",
+            "check_text": [
+                "JOIN NOW TO SEE MORE</span>",
+                ">Videos Featuring"
+            ],
+              "not_found_text": [
+                "Page Not Found"
+            ],
+            "category": "adult video and photo"
+        },
+	"Clip Page": {
+            "url": "https://clip.page/{username}",
+            "check_text": [
+                "Customs</button>",
+                "></i> Custom"
+            ],
+              "not_found_text": [
+                "Not Found</title>"
+            ],
+            "category": "adult video and photo"
+        },
+	"Faphouse": {
+            "url": "https://faphouse.com/models/{username}",
+            "check_text": [
+                "Porn Videos | Faphouse</title>",
+                "Followers"
+            ],
+              "not_found_text": [
+                "<title>Error</title>",
+                "Not found</h2>"
+            ],
+            "category": "adult video and photo"
+        },
+	"TNAFlix": {
+            "url": "https://www.tnaflix.com/profile/{username}",
+            "check_text": [
+                "Pornstar - TNAFLIX.COM</title>"
+            ],
+              "not_found_text": [
+                "404 - Not Found"
+            ],
+            "category": "adult video and photo"
+        },
+	"Virtual Taboo": {
+            "url": "https://virtualtaboo.com/pornstars/{username}",
+            "check_text": [
+                "Birthday:</td>",
+                "VR Porn Star Videos: New Sex Scenes | VirtualTaboo</title>"
+            ],
+              "not_found_text": [
+                "<h1>404: Page not found</h1>"
+            ],
+            "category": "adult video and photo"
+        },
+	"Tik.Porn": {
+            "url": "https://tik.porn/{username}",
+            "check_text": [
+                "<div>Views</div>",
+				"<div>Followers</div>"
+            ],
+              "not_found_text": [
+                ">Page Not Found | Tik.Porn</title>"
+            ],
+            "category": "adult video and photo"
+        },
+	"PornHat (Models)": {
+            "url": "https://www.pornhat.com/models/{username}/",
+            "check_text": [
+                "free HD porn videos - PornHat</title>"
+            ],
+              "not_found_text": [
+                "<title>Page Not Found</title>"
+            ],
+            "category": "adult video and photo"
+        },
+	"PornHat (Channels)": {
+            "url": "https://www.pornhat.com/sites/{username}/",
+            "check_text": [
+                "free HD porn videos - PornHat</title>"
+            ],
+              "not_found_text": [
+                "<title>Page Not Found</title>"
+            ],
+            "category": "adult video and photo"
+        },
+	"PornMD": {
+            "url": "https://www.pornmd.com/pornstar/{username}",
+            "check_text": [
+                "Videos and Porn Movies :: PornMD"
+            ],
+              "not_found_text": [
+                "Oops! We could not find the requested page."
+            ],
+            "category": "adult video and photo"
+        },
+	"Chaturbate": {
+            "url": "https://chaturbate.com/{username}/",
+            "check_text": [
+                "live on Chaturbate!",
+                ">Bio</div>",
+                "Last Broadcast:</div>",
+                "Room is currently offline</div>",
+                "I am:</div>"
+            ],
+              "not_found_text": [
+                "<h1>HTTP 404 - Page Not Found",
+                "Pornstar Free Cams</title>"
+            ],
+            "category": "camming"
+        },
+	"eplay": {
+            "url": "https://www.eplay.com/{username}",
+            "check_text": [
+                "message",
+				"tokens-tipped",
+				"totalViews",
+				"pronoun"
+            ],
+              "not_found_text": [
+                "Oops, seems like you've encountered an error"
+            ],
+            "category": "camming"
+        },
+	"Webcam-Archiver": {
+            "url": "https://webcam-archiver.com/search/?query={username}",
+            "check_text": [
+                "Download</a>",
+                ">Big Preview"
+            ],
+              "not_found_text": [
+                "<h4>0 Result's"
+            ],
+            "category": "camming"
+        },
+	"Masturbate and Chill": {
+            "url": "https://www.live.masturbateandchill.com/en/chat/{username}#!",
+            "check_text": [
+                "<title>Free Live Sex Chat With"
+            ],
+              "not_found_text": [
+                "<title>www.live.masturbateandchill.com"
+            ],
+            "category": "camming"
+        },
+	"Jerkmate (pornstars)": {
+            "url": "https://jerkmate.com/pornstar/{username}",
+            "check_text": [
+                "jerkmate.com/pornstar"
+            ],
+              "not_found_text": [
+                "page not found - 404"
+            ],
+            "category": "camming"
+        },
+	"Jerkmate (cams)": {
+            "url": "https://jerkmate.com/cam/{username}",
+            "check_text": [
+                "cam profile:"
+            ],
+              "not_found_text": [
+                "page not found - 404",
+		"Sex Chat with Adult Cam Models | Jerkmate</title>"
+            ],
+            "category": "camming"
+        },
+	"Camlust": {
+            "url": "https://camlust.com/en/models/{username}",
+            "check_text": [
+                "in Free Chat Roulette",
+                "Live Skype sex show with"
+            ],
+              "not_found_text": [
+                "page not found"
+            ],
+            "category": "camming"
+        },
+	"Xpanded": {
+            "url": "https://xpanded.com/girls?search_profilename={username}",
+            "check_text": [
+                ">Xpanded TV</a>",
+                "</a> page to see call options</p>"
+            ],
+              "not_found_text": [
+                "but we were unable to find"
+            ],
+            "category": "camming"
+         },
+                "MyFreeCams": {
+            "url": "https://profiles.myfreecams.com/{username}",
+            "check_text": [
+                "profile_avatar",
+                "status_label"
+            ],
+              "not_found_text": [
+                "Search by Username"
+            ],
+            "category": "camming"
+        },
+	"Babestation Cams (performer)": {
+            "url": "https://babestationcams.com/performer/{username}",
+            "check_text": [
+                "Babestation Cams</title>"
+            ],
+              "not_found_text": [
+                "<title>Not Found</title>"
+            ],
+            "category": "camming"
+        },
+	"SinParty": {
+            "url": "https://sinparty.com/{username}",
+            "check_text": [
+                "profile on SinParty for their"
+            ],
+              "not_found_text": [
+                "Free Adult Live Cams</title>",
+		"Gay Live Cams</title>"
+            ],
+            "category": "camming"
+        },
+	"SOFcams": {
+            "url": "https://www.sofcams.com/{username}/",
+            "check_text": [
+                ">Real Name:</div>",
+                "Last Broadcast:</div>",
+                "Location:</div>"
+            ],
+              "not_found_text": [
+                "<h1>HTTP 404 - Page Not Found</h1>"
+            ],
+            "category": "camming"
+        },
+	"ChatMate": {
+            "url": "https://chatmate.com/chat-video/{username}",
+            "check_text": [
+                "<title>Chat & Interact with"
+            ],
+              "not_found_text": [
+                "<title>Page Not Found - 404"
+            ],
+            "category": "camming"
+        },
+	"RoyalCams": {
+            "url": "https://en.royalcams.com/{username}",
+            "check_text": [
+                "last broadcast",
+                "hometown"
+            ],
+              "not_found_text": [
+                "<h1>The page cannot be found</h1>"
+            ],
+            "category": "camming"
+         },
+                "CamSoda": {
+            "url": "https://camsoda.com/{username}",
+            "check_text": [
+                "bio"
+            ],
+              "not_found_text": [
+                "Error, page not found"
+            ],
+            "category": "camming"
+        },
+	"CamWithHer (users)": {
+            "url": "https://camwithher.com/{username}",
+            "check_text": [
+                "Free Live Nude Sex Show",
+                "bio"
+            ],
+              "not_found_text": [
+                "page not found"
+            ],
+            "category": "camming"
+        },
+	"Xcams": {
+            "url": "https://www.xcams.com/profile/{username}/",
+            "check_text": [
+                "years old"
+            ],
+              "not_found_text": [
+                "not found"
+            ],
+            "category": "camming"
+        },
+	"Xlovecam": {
+            "url": "https://www.xlovecam.com/en/model/{username}/",
+            "check_text": [
+                "years old",
+                "about me"
+            ],
+              "not_found_text": [
+                "error 404"
+            ],
+            "category": "camming"
+        },
+	"Soul Cams": {
+            "url": "https://www.soulcams.com/profile/{username}",
+            "check_text": [
+                "Live cam | Soulcams.com</title>",
+                "About me</span>",
+                "Follow me</a>"
+            ],
+              "not_found_text": [
+                "<title>SoulCams"
+            ],
+            "category": "camming"
+        },
+	"XV Cams": {
+            "url": "https://www.xvcams.com/models/bios/{username}/about.php",
+            "check_text": [
+                "Webcam Bio - Naked Pics, Adult Videos, Sex Chat</title>"
+            ],
+              "not_found_text": [
+                "The performer's bio you requested is not available."
+            ],
+            "category": "camming"
+        },
+	"CamSextacy": {
+            "url": "https://www.camsextacy.com/{username}",
+            "check_text": [
+                "Cam: Free Live Nude Sex Show & Chat - CamSextacy</title>"
+            ],
+              "not_found_text": [
+                ">Error, page not found</div>"
+            ],
+            "category": "camming"
+        },
+	"Mynt Models (NY, DAL, LA)": {
+            "url": "https://www.myntmodels.com/escort-model/{username}/",
+            "check_text": [
+                "Measurements:",
+				"<p>Age:"
+            ],
+              "not_found_text": [
+                "<title>Page Not Found"
+            ],
+            "category": "escort"
+        },
+	"TS-Dating (International)": {
+            "url": "https://www.ts-dating.com/model/{username}",
+            "check_text": [
+                ">Location:<span",
+				">Name: <span",
+				">Age: <span"
+            ],
+              "not_found_text": [
+                "404 - PAGE NOT FOUND"
+            ],
+            "category": "escort"
+        },
+	"Mccoys Guide (US)": {
+            "url": "https://www.mccoysguide.com/services/escorts/united-states-of-america?search={username}&order=updated",
+            "check_text": [
+                "/assets/advertiser_accounts/",
+                "<h6>Escorts</h6>"
+            ],
+              "not_found_text": [
+                "No search results found"
+            ],
+            "category": "escort"
+        },
+	"Naughty Ads (International)": {
+            "url": "https://www.naughtyads.com.au/escort/{username}",
+            "check_text": [
+                "call-button",
+				"sms-button",
+				"Quick Facts</label>"
+            ],
+              "not_found_text": [
+                "Oops, something went wrong...</h3>"
+            ],
+            "category": "escort"
+        },
+	"Cowboys4Angels": {
+            "url": "https://cowboys4angels.com/cowboys/{username}/",
+            "check_text": [
+                "<h1>About",
+                "View His Rates</div>"
+            ],
+              "not_found_text": [
+                "Page not found"
+            ],
+            "category": "escort"
+        },
+	"Models-World": {
+            "url": "https://models-world.com/profile/{username}/",
+            "check_text": [
+                "- Located in"
+            ],
+              "not_found_text": [
+                "<title>MODELS WORLD"
+            ],
+            "category": "escort"
+        },
+	"Eros Escorts": {
+            "url": "https://erosescorts.net/{username}/",
+            "check_text": [
+                "Escort Profile -"
+            ],
+              "not_found_text": [
+                "<title>Escorts directory"
+            ],
+            "category": "escort"
+        },
+	"Grazia (International)": {
+            "url": "https://grazia-escort.com/en/models/{username}/",
+            "check_text": [
+                "book now"
+            ],
+              "not_found_text": [
+                "<title>Grazia"
+            ],
+            "category": "escort"
+        },
+	"Perla Di Mare (International)": {
+            "url": "https://www.perla-di-mare.eu/escort/{username}/",
+            "check_text": [
+                "located in"
+            ],
+              "not_found_text": [
+                "nothing found"
+            ],
+            "category": "escort"
+        },
+	"Ava Escorts (International)": {
+            "url": "https://avaescorts.com/search-results?escort_name={username}&agency_id=&escort_type=&root_category=&city_county=Enter+City&age=&hair_color=&languages=&price=&type=&x=0&y=0",
+            "check_text": [
+                "/>Outcall Only<br",
+                "/>Incall/Outcall<br",
+                "/>Incall Only<br"
+            ],
+              "not_found_text": [
+                "escorts found (0)"
+            ],
+            "category": "escort"
+         },
+                "PrivateDelights": {
+            "url": "https://privatedelights.ch/profile/{username}",
+            "check_text": [
+                "Joined"
+            ],
+              "not_found_text": [
+                "No page"
+            ],
+            "category": "escort"
+        },
+	"The Erotic Review": {
+            "url": "https://www.theeroticreview.com/reviews/newreviewsList.asp?Name={username}",
+            "check_text": [
+                "matches.</span>",
+                ">Name</div>"
+            ],
+              "not_found_text": [
+                "<p>No records were found.</p>"
+            ],
+            "category": "escort"
+        },
+	"Escort Directory (International)": {
+            "url": "https://www.escortdirectory.com/search?s={username}/",
+            "check_text": [
+                "profiles found for"
+            ],
+              "not_found_text": [
+                "No results found"
+            ],
+            "category": "escort"
+         },
+                "Rent.Men": {
+            "url": "https://rent.men/{username}",
+            "check_text": [
+                "Current location"
+            ],
+              "not_found_text": [
+                "404",
+                "Ooops...",
+                "The requested page can not be found."
+            ],
+            "category": "escort"
+         },
+                "HOT": {
+            "url": "https://hot.com/us/escorts?q={username}",
+            "check_text": [
+                ">model &quot;"
+            ],
+              "not_found_text": [
+                "Your request does not match any item.",
+                "Try changing your request",
+		"</span> does not match"
+            ],
+            "category": "escort"
+         },
+                "Eros.com": {
+            "url": "https://eros.com/search/text?sch={username}&loc=",
+            "check_text": [
+                "United States"
+            ],
+              "not_found_text": [
+                "No results"
+            ],
+            "category": "escort"
+         },
+                "tryst.link": {
+            "url": "https://tryst.link/escort/{username}",
+            "check_text": [
+                "#photos"
+            ],
+              "not_found_text": [
+                "<h1>Page not found</h1>",
+                "The page you were looking for couldn't be found."
+            ],
+            "category": "escort"
+         },
+                "5escorts": {
+            "url": "https://www.5escorts.com/search/?keyword={username}&category=ads",
+            "check_text": [
+                "/ads/details/"
+            ],
+              "not_found_text": [
+                "Could not find what you were looking for?"
+            ],
+            "category": "escort"
+         },
+                "Sweet Passion Escort": {
+            "url": "https://www.sweet-passion-escort.de/en/models/{username}",
+            "check_text": [
+                "book",
+		"Sedcard"
+            ],
+              "not_found_text": [
+                "Could not find what you were looking for?",
+		"<title>Escort Damen"
+            ],
+            "category": "escort"
+         },
+                "Major Escorts (London, UK)": {
+            "url": "https://majorescorts.co.uk/all-london-escorts/{username}/",
+            "check_text": [
+                "SERVICES"
+            ],
+              "not_found_text": [
+                "Not Found",
+                "not found on this server."
+            ],
+            "category": "escort"
+         },
+                "Open Adult Directory BDSM Search": {
+            "url": "https://openadultdirectory.com/oad_search.php?kw={username}&dir=bdsm",
+            "check_text": [
+                "results"
+            ],
+              "not_found_text": [
+                "Your search returned no matches.",
+		"Page Not Found"
+            ],
+            "category": "escort"
+         },
+                "Open Adult Directory Escorts Search": {
+            "url": "https://openadultdirectory.com/oad_search.php?kw={username}&dir=escorts",
+            "check_text": [
+                "results"
+            ],
+              "not_found_text": [
+                "Your search returned no matches.",
+		"Page Not Found"
+            ],
+            "category": "escort"
+         },
+                "International Fetish Escort (Frankfurt, Germany)": {
+            "url": "https://www.international-fetish-escort.com/en/escort-models/{username}/",
+            "check_text": [
+                "about me"
+            ],
+              "not_found_text": [
+                "404",
+                "oops"
+            ],
+            "category": "escort"
+         },
+                "Marbs Escorts (Marbella, Spain)": {
+            "url": "https://marbsescorts.com/escort/{username}/",
+            "check_text": [
+                "Product Description",
+				" - Marbs Escorts"
+            ],
+              "not_found_text": [
+                "Not Found",
+                "not found on this server.",
+                "Welcome",
+				"Looking for premium Marbella escorts?"
+            ],
+            "category": "escort"
+         },
+                "Massage Red Velvet Tug (Uganda, Africa)": {
+            "url": "https://redvelvetug.com/listing/{username}/",
+            "check_text": [
+                "Age",
+                "Sexuality"
+            ],
+              "not_found_text": [
+                "Not Found",
+                "not found on this server.",
+                "The page you are looking for is not here.",
+                "404 NOT FOUND",
+                "Oops! That page can't be found!",
+                "Page not found",
+                "P404 page for London Stars"
+            ],
+            "category": "escort"
+        },
+	"Exotic Nigeria (Nigeria, Africa)": {
+            "url": "https://www.exoticnigeria.com/escort/{username}/",
+            "check_text": [
+                "call girl in Nigeria on Exoctic Nigeria.</title>"
+            ],
+              "not_found_text": [
+                "Premium Nigerian Escorts</title>"
+            ],
+            "category": "escort"
+        },
+	"Exotic RW (Rwanda, Africa)": {
+            "url": "https://www.exoticrw.com/escort/{username}/",
+            "check_text": [
+                " | Best Rwanda Escorts"
+            ],
+              "not_found_text": [
+                "<title>Best Rwanda Escorts"
+            ],
+            "category": "escort"
+        },
+	"Exotic Namibia (Namibia, Africa)": {
+            "url": "https://www.exoticnamibia.com/escort/{username}/",
+            "check_text": [
+                "Hookups with Nambian Escort for Massage, Sex</title>"
+            ],
+              "not_found_text": [
+                "<title>Exotic Escorts Namibia"
+            ],
+            "category": "escort"
+        },
+	"Exotic Benin (Benin, Africa)": {
+            "url": "https://www.exoticbenin.com/escort/{username}/",
+            "check_text": [
+                " - Meilleures escortes"
+            ],
+              "not_found_text": [
+                "<title>Meilleures escortes",
+				"<!-- NORMAL PROFILES start -->"
+            ],
+            "category": "escort"
+        },
+	"Exotic Mozambique (Mozambique, Africa)": {
+            "url": "https://www.exoticmozambique.com/escort/{username}/",
+            "check_text": [
+                " - Acompanhantes Maputo"
+            ],
+              "not_found_text": [
+                "<title>Acompanhantes Maputo"
+            ],
+            "category": "escort"
+        },
+	"Exotic Mali (Mali, Africa)": {
+            "url": "https://www.exoticmali.com/escort/{username}/",
+            "check_text": [
+                " - Escorte Mali"
+            ],
+              "not_found_text": [
+                "<title>Escorte Mali"
+            ],
+            "category": "escort"
+        },
+	"Exotic Malawi (Malawi, Africa)": {
+            "url": "https://www.exoticmalawi.com/escort/{username}/",
+            "check_text": [
+                " - Escorts in Malawi"
+            ],
+              "not_found_text": [
+                "<title>Escorts in Malawi"
+            ],
+            "category": "escort"
+        },
+	"Exotic Ethiopia (Ethiopia, Africa)": {
+            "url": "https://www.exoticethiopia.com/escort/{username}/",
+            "check_text": [
+                ", Ethiopian Escort for Massage"
+            ],
+              "not_found_text": [
+                "<title>Ethiopian Escorts"
+            ],
+            "category": "escort"
+        },
+	"Exotic Botswana (Botswana, Africa)": {
+            "url": "https://www.exoticbotswana.com/escort/{username}/",
+            "check_text": [
+                ", Botswana Escort for Massage"
+            ],
+              "not_found_text": [
+                "<title>Botswana Escorts"
+            ],
+            "category": "escort"
+         },
+                "Blue Label Escort (Frankfurt, Germany)": {
+            "url": "https://bluelabel-escort.com/en/models/{username}/",
+            "check_text": [
+                "Hair colour:</span>",
+		"Category:</span>",
+		"Height:</span>"
+            ],
+              "not_found_text": [
+                "faq"
+            ],
+            "category": "escort"
+         },
+                "Top Companions (Brussels, Belgium)": {
+            "url": "https://topcompanions.com/models/{username}",
+            "check_text": [
+                "Age"
+            ],
+              "not_found_text": [
+                "Not Found",
+                "not found on this server.",
+                "The page you are looking for is not here.",
+                "404 NOT FOUND",
+                "Oops! That page can't be found!",
+                "Page not found"
+            ],
+            "category": "escort"
+        },
+	"Felines Escort": {
+            "url": "https://www.felinesescort.com/en/escort-girl/{username}",
+            "check_text": [
+                "photos",
+                "about"
+            ],
+              "not_found_text": [
+                "page not found"
+            ],
+            "category": "escort"
+        },
+	"Aphrodite Agency (Europe)": {
+            "url": "https://www.aphrodite-agency.com/en/models/{username}",
+            "check_text": [
+                "more about"
+            ],
+              "not_found_text": [
+                "meet high class escorts"
+            ],
+            "category": "escort"
+        },
+	"Society Service Escorts (Holland & Belgium)": {
+            "url": "https://www.societyservice.com/escort/{username}",
+            "check_text": [
+                "profile"
+            ],
+              "not_found_text": [
+                "find your perfect",
+		"we are sorry"
+            ],
+            "category": "escort"
+        },
+	"Society Service Gigolos (Holland & Belgium)": {
+            "url": "https://www.societyservice.com/gigolo/{username}",
+            "check_text": [
+                "profile"
+            ],
+              "not_found_text": [
+                "find your perfect"
+            ],
+            "category": "escort"
+         },
+                "SouthernGFE": {
+            "url": "https://www.southerngfe.com/escorts/search?searchword={username}",
+            "check_text": [
+                "title='{username}",
+                "Results 1"
+            ],
+              "not_found_text": [
+                "Your search does not return any result."
+            ],
+            "category": "escort"
+        },
+	"1Baiser": {
+            "url": "https://en.1baiser.com/search?q={username}",
+            "check_text": [
+                "Model </span></h2>"
+            ],
+              "not_found_text": [
+                "No results were found"
+            ],
+            "category": "escort"
+        },
+	"Figgmi (Switzerland)": {
+            "url": "https://figgmi.ch/de/escorts/{username}/",
+            "check_text": [
+                "| escort in"
+            ],
+              "not_found_text": [
+                "error 404"
+            ],
+            "category": "escort"
+        },
+	"Telaviv-Escort (Telaviv)": {
+            "url": "https://telaviv-escort.com/model/{username}",
+            "check_text": [
+                "<td>Ethnicity:</td>",
+                "<td>Age:</td>",
+                "<td>Availability:</td>"
+            ],
+              "not_found_text": [
+                "404 not found"
+            ],
+            "category": "escort"
+        },
+	"Austin Escort Models (Austin, TX)": {
+            "url": "https://austinescortmodels.com/model/{username}",
+            "check_text": [
+                "<td>Ethnicity:</td>",
+                "<td>Age:</td>",
+                "<td>Availability:</td>"
+            ],
+              "not_found_text": [
+                "404 not found"
+            ],
+            "category": "escort"
+        },
+	"Dallas Escort State (Dallas, TX)": {
+            "url": "https://dallasescortstate.com/model/{username}",
+            "check_text": [
+                "<td>Ethnicity:</td>",
+                "<td>Age:</td>",
+                "<td>Availability:</td>"
+            ],
+              "not_found_text": [
+                "404 not found"
+            ],
+            "category": "escort"
+        },
+	"What Happens In Vegas Stays (Las Vegas, NV)": {
+            "url": "https://www.whathappensinvegasstays.com/?s={username}",
+            "check_text": [
+                "search-results"
+            ],
+              "not_found_text": [
+                "Nothing Found</h1>"
+            ],
+            "category": "escort"
+        },
+	"Party Girls LV (Las Vegas, NV)": {
+            "url": "https://partygirlslv.com/?s={username}&post_type=model",
+            "check_text": [
+                ">Search Results for:"
+            ],
+              "not_found_text": [
+                "Nothing Found</h1>"
+            ],
+            "category": "escort"
+        },
+	"Vegas Girls Gone Wild (Las Vegas, NV)": {
+            "url": "https://vegasgirlsgonewild.com/escort/{username}/",
+            "check_text": [
+                "Vegas Girls Gone Wild</title>"
+            ],
+              "not_found_text": [
+                "Page not found"
+            ],
+            "category": "escort"
+        },
+	"Florida Escort Models (Florida, US)": {
+            "url": "https://floridaescortmodels.com/model/{username}",
+            "check_text": [
+                "<td>Ethnicity:</td>",
+                "<td>Age:</td>",
+                "<td>Availability:</td>"
+            ],
+              "not_found_text": [
+                "404 not found"
+            ],
+            "category": "escort"
+        }
+    }
+}

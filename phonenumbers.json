@@ -1,0 +1,71 @@
+{
+    "websites": {
+	"Escort Babylon": {
+            "url": "https://escortbabylon.net/info_stats/{username}",
+            "check_text": [
+                "<span>Location",
+                ">Contact:",
+                "info_stats"
+            ],
+              "not_found_text": [
+                "<h3>phone does not exist</h3>"
+            ],
+            "category": "escort"
+        },
+	"HOT": {
+            "url": "https://hot.com/us/?q={username}",
+            "check_text": [
+                ">Results are shown for <b"
+            ],
+              "not_found_text": [
+                "Your request does not match any item.",
+                "Try changing your request",
+                "</span> does not match"
+            ],
+            "category": "escort"
+        },
+	"ListCrawler.City": {
+            "url": "https://listcrawler.city/products?search={username}",
+            "check_text": [
+                "Request a Quote",
+                "product-item-rating"
+            ],
+              "not_found_text": [
+                "No products found!"
+            ],
+            "category": "escort"
+        },
+	"Escort Directory (International)": {
+            "url": "https://www.escortdirectory.com/search?s={username}/",
+            "check_text": [
+                "profiles found for"
+            ],
+              "not_found_text": [
+                "No results found"
+            ],
+            "category": "escort"
+        },
+	"The Erotic Review": {
+            "url": "https://www.theeroticreview.com/reviews/newreviewsList.asp?Phone={username}",
+            "check_text": [
+                "matches.</span>",
+                ">Name</div>"
+            ],
+              "not_found_text": [
+                "<p>No records were found.</p>"
+            ],
+            "category": "escort"
+        },
+	"The Other Board": {
+            "url": "https://theotherboard.com/escort-reviews?phone={username}",
+            "check_text": [
+                "<div>1 -",
+                ">Name </a>"
+            ],
+              "not_found_text": [
+                "<span>No Users Found</span>"
+            ],
+            "category": "escort"
+        }
+    }
+}
