@@ -207,19 +207,6 @@
                 "couldn't find this account"
             ],
             "category": "social"
-        },
-	"NiteFlirt": {
-            "url": "https://www.niteflirt.com/search?text={username}",
-            "check_text": [
-                "send text",
-                "send mail",
-                "listen now",
-                "/profile/"
-            ],
-              "not_found_text": [
-                "We're sorry, we were not able to find"
-            ],
-            "category": "social"
          },
 		"Tinder": {
             "url": "https://www.tinder.com/@{username}",
@@ -1016,19 +1003,6 @@
             ],
             "category": "camming"
         },
-	"eplay": {
-            "url": "https://www.eplay.com/{username}",
-            "check_text": [
-                "message",
-				"tokens-tipped",
-				"totalViews",
-				"pronoun"
-            ],
-              "not_found_text": [
-                "Oops, seems like you've encountered an error"
-            ],
-            "category": "camming"
-        },
 	"Webcam-Archiver": {
             "url": "https://webcam-archiver.com/search/?query={username}",
             "check_text": [
@@ -1511,16 +1485,6 @@
                 "Oops! That page can't be found!",
                 "Page not found",
                 "P404 page for London Stars"
-            ],
-            "category": "escort"
-        },
-	"Exotic Nigeria (Nigeria, Africa)": {
-            "url": "https://www.exoticnigeria.com/escort/{username}/",
-            "check_text": [
-                "call girl in Nigeria on Exoctic Nigeria.</title>"
-            ],
-              "not_found_text": [
-                "Premium Nigerian Escorts</title>"
             ],
             "category": "escort"
         },
