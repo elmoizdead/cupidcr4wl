@@ -1,8 +1,0 @@
-[build-system]
-requires = ["setuptools", "wheel"]
-build-backend = "setuptools.build_meta"
-
-[tool.setuptools.entry_points]
-console_scripts = [
-    "cupidcr4wl = cupidcr4wl:main",
-]
