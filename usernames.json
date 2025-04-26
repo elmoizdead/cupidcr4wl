@@ -76,7 +76,8 @@
 	"All My Links": {
             "url": "https://allmylinks.com/{username}",
             "check_text": [
-                "| AllMyLinks</title>"
+                "| AllMyLinks</title>",
+		"profile-username profile-page"
             ],
               "not_found_text": [
                 "<title>Not Found"
@@ -189,7 +190,8 @@
                 "Fancentro": {
             "url": "https://fancentro.com/{username}",
             "check_text": [
-                "Subscribe"
+                "Subscribe",
+		">followers"
             ],
               "not_found_text": [
                 "Porn Videos"
@@ -845,7 +847,9 @@
 	"Raw White Meat": {
             "url": "https://rawwhitemeat.com/video_tag/{username}/",
             "check_text": [
-                "post-title"
+                "post-title",
+		">Height:",
+		">Age:"
             ],
               "not_found_text": [
                 "Page Not Found"
@@ -875,7 +879,9 @@
 	"Sluts Around Town": {
             "url": "https://slutsaroundtown.com/video_tag/{username}/",
             "check_text": [
-                "post-title"
+                "post-title",
+		">Age:",
+		">Height:"
             ],
               "not_found_text": [
                 "Page Not Found"
@@ -1454,20 +1460,6 @@
               "not_found_text": [
                 "404",
                 "oops"
-            ],
-            "category": "escort"
-         },
-                "Marbs Escorts (Marbella, Spain)": {
-            "url": "https://marbsescorts.com/escort/{username}/",
-            "check_text": [
-                "Product Description",
-				" - Marbs Escorts"
-            ],
-              "not_found_text": [
-                "Not Found",
-                "not found on this server.",
-                "Welcome",
-				"Looking for premium Marbella escorts?"
             ],
             "category": "escort"
          },
