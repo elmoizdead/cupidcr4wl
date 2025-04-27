@@ -1227,8 +1227,8 @@
             "url": "https://www.ts-dating.com/model/{username}",
             "check_text": [
                 ">Location:<span",
-				">Name: <span",
-				">Age: <span"
+		">Name: <span",
+		">Age: <span"
             ],
               "not_found_text": [
                 "404 - PAGE NOT FOUND"
