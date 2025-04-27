@@ -1738,6 +1738,86 @@
                 "404 not found"
             ],
             "category": "escort"
+        },
+	"EscortHub (International)": {
+            "url": "https://escorthub.org/escort/{username}/",
+            "check_text": [
+                "escort from",
+                "- EscortHub</title>"
+            ],
+              "not_found_text": [
+                "<h2>404</h2>",
+                "<h3>page not found</h3>"
+            ],
+            "category": "escort"
+        },
+	"ShemaleCanada (Canada)": {
+            "url": "https://shemalecanada.com/escort/{username}",
+            "check_text": [
+                " | ShemaleCanada.com</title>",
+                ">Availability:</span>",
+                ">Location:</span>"
+            ],
+              "not_found_text": [
+                ">404</h1>",
+                ">Page not found</p>"
+            ],
+            "category": "escort"
+        },
+	"Dior Escorts (London, UK)": {
+            "url": "https://www.diorescorts.com/gallery/{username}",
+            "check_text": [
+                ">Age:</div>",
+                ">Gender:</div>",
+                ">Availability :</div>"
+            ],
+              "not_found_text": [
+                ">Sorry Page not found :( (404)</h1>"
+            ],
+            "category": "escort"
+        },
+	"Cheshire Companions (UK)": {
+            "url": "https://www.cheshirecompanions.com/escorts/{username}",
+            "check_text": [
+                "<dt>Age</dt>",
+                "<dt>Height</dt>"
+            ],
+              "not_found_text": [
+                "404 | Chesire Companions    </title>"
+            ],
+            "category": "escort"
+        },
+	"Candy Shop Escorts (Manchester, ENG)": {
+            "url": "https://candyshopescorts.co.uk/escorts/{username}",
+            "check_text": [
+                "<dt>Age</dt>",
+                "<dt>Height</dt>"
+            ],
+              "not_found_text": [
+                "The page you are looking for doesn't exist or has been moved."
+            ],
+            "category": "escort"
+        },
+	"Scarlet Blue (International)": {
+            "url": "https://scarletblue.com.au/search/?search=true&escortname={username}",
+            "check_text": [
+                "profile-quickstats--details",
+                ">Age:</span>"
+            ],
+              "not_found_text": [
+                "No Escorts found - Please select different options"
+            ],
+            "category": "escort"
+        },
+	"IvySociete (Australia)": {
+            "url": "https://ivysociete.com/escorts?search={username}",
+            "check_text": [
+                "h-3.5 w-3.5 sm:w-4"
+            ],
+              "not_found_text": [
+                ">No profiles found</p>"
+            ],
+            "category": "escort"
         }
     }
 }
