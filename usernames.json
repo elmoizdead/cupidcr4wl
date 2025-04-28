@@ -689,16 +689,6 @@
             ],
             "category": "adult video and photo"
          },
-                "Hdporn92 (actors)": {
-            "url": "https://www.hdporn92.com/actor/{username}/",
-            "check_text": [
-                "Video Actor"
-            ],
-              "not_found_text": [
-                "Page not found"
-            ],
-            "category": "adult video and photo"
-         },
                 "RedGIFs": {
             "url": "https://www.redgifs.com/users/{username}",
             "check_text": [
