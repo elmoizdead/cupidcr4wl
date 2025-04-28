@@ -447,7 +447,10 @@
 	"Pornhub (pornstars)": {
             "url": "https://www.pornhub.com/pornstar/{username}",
             "check_text": [
-                "<div id=\"avatarPicture\">"
+                "<div id=\"avatarPicture\">",
+		"Subscribers:",
+		"Video Views:",
+		"Gender:"
             ],
               "not_found_text": [
                 "This account doesn’t exist",
