@@ -1821,6 +1821,81 @@
                 ">No profiles found</p>"
             ],
             "category": "escort"
+        },
+	"Naughty Ads (Australia)": {
+            "url": "https://www.naughtyads.com.au/escorts/australia?search={username}",
+            "check_text": [
+                "escort-profile-image",
+                "escort-price"
+            ],
+              "not_found_text": [
+                "No listings found for this search"
+            ],
+            "category": "escort"
+        },
+	"Oklute (India)": {
+            "url": "https://hi.oklute.com/call-girls/?q={username}",
+            "check_text": [
+                "Results for:"
+            ],
+              "not_found_text": [
+                "Your search returned no results"
+            ],
+            "category": "escort"
+        },
+	"New Zealand Girls (New Zealand)": {
+            "url": "https://www.newzealandgirls.co.nz/all/nzgirls.php?keyword={username}&go_keyword=Go%21",
+            "check_text": [
+                "Stunning Escorts in New Zealand"
+            ],
+              "not_found_text": [
+                "Your search returned no results, please try another search."
+            ],
+            "category": "escort"
+        },
+	"Adult Look (International)": {
+            "url": "https://www.adultlook.com/search/?query={username}&rq={username}&advanced=1",
+            "check_text": [
+                "results found</span>"
+            ],
+              "not_found_text": [
+                "No results found to show"
+            ],
+            "category": "escort"
+        },
+	"KittyAds (International)": {
+            "url": "https://www.kittyads.com/{username}",
+            "check_text": [
+                "<title>Escort Profile:",
+                "Contact Info"
+            ],
+              "not_found_text": [
+                "Page Not Found"
+            ],
+            "category": "escort"
+        },
+	"Lady Escorts (Dubai)": {
+            "url": "https://ladyescorts.com/girl/{username}/",
+            "check_text": [
+                "Age:</span>",
+                "Height:</span>"
+            ],
+              "not_found_text": [
+                "404, Oops! Page Not Found."
+            ],
+            "category": "escort"
+        },
+	"Exotic-Africa (Africa)": {
+            "url": "https://www.exotic-africa.com/escort/{username}/",
+            "check_text": [
+                "<h4>Contact info:</h4>",
+                "<h4>Services:</h4>"
+            ],
+              "not_found_text": [
+                ">VIP Escorts</h3>",
+                "<h3>page not found</h3>"
+            ],
+            "category": "escort"
         }
     }
 }
