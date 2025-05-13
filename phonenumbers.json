@@ -25,17 +25,6 @@
             ],
             "category": "escort"
         },
-	"ListCrawler.City": {
-            "url": "https://listcrawler.city/products?search={username}",
-            "check_text": [
-                "Request a Quote",
-                "product-item-rating"
-            ],
-              "not_found_text": [
-                "No products found!"
-            ],
-            "category": "escort"
-        },
 	"Escort Directory (International)": {
             "url": "https://www.escortdirectory.com/search?s={username}/",
             "check_text": [
