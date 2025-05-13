@@ -8,7 +8,8 @@
                 "info_stats"
             ],
               "not_found_text": [
-                "<h3>phone does not exist</h3>"
+                "<h3>phone does not exist</h3>",
+		"<h3>phone is not correct</h3>"
             ],
             "category": "escort"
         },
