@@ -784,16 +784,6 @@
                 "page not found"
             ],
             "category": "adult video and photo"
-         },
-                "Uviu": {
-            "url": "https://uviu.com/model/{username}",
-            "check_text": [
-                "<span>Videos</span>"
-            ],
-              "not_found_text": [
-                "<title>Page Not Found</title>"
-            ],
-            "category": "adult video and photo"
         },
 	"Fanvue": {
             "url": "https://www.fanvue.com/{username}",
@@ -1040,7 +1030,9 @@
             ],
               "not_found_text": [
                 "page not found - 404",
-		"Sex Chat with Adult Cam Models | Jerkmate</title>"
+		"Sex Chat with Adult Cam Models | Jerkmate</title>",
+		"We're sorry, the page you're looking for was not found.</h2>",
+		">Live Cam Girls</h1>"
             ],
             "category": "camming"
         },
@@ -1799,16 +1791,6 @@
             ],
               "not_found_text": [
                 "No Escorts found - Please select different options"
-            ],
-            "category": "escort"
-        },
-	"IvySociete (Australia)": {
-            "url": "https://ivysociete.com/escorts?search={username}",
-            "check_text": [
-                "h-3.5 w-3.5 sm:w-4"
-            ],
-              "not_found_text": [
-                ">No profiles found</p>"
             ],
             "category": "escort"
         },
