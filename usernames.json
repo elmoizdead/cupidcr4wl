@@ -977,6 +977,39 @@
             ],
             "category": "adult video and photo"
         },
+	"Yuvutu (search)": {
+            "url": "http://www.yuvutu.com/modules.php?name=Video&op=search&keywords={username}",
+            "check_text": [
+                ">1</a>"
+            ],
+              "not_found_text": [
+                "<strong>0 result(s)</strong>"
+            ],
+            "category": "adult video and photo"
+        },
+	"Yuvutu (profile)": {
+            "url": "http://www.yuvutu.com/{username}",
+            "check_text": [
+                "personal info</h1>",
+                ">Height:</span>"
+            ],
+              "not_found_text": [
+                ">Members</span>"
+            ],
+            "category": "adult video and photo"
+        },
+	"Adultism": {
+            "url": "https://www.adultism.com/profile/{username}",
+            "check_text": [
+                ">Location:</span>",
+                ">Member since:</span>"
+            ],
+              "not_found_text": [
+                "No such member :(",
+                "<title> Not Found - Adultism</title>"
+            ],
+            "category": "adult video and photo"
+        },
 	"Chaturbate": {
             "url": "https://chaturbate.com/{username}/",
             "check_text": [
