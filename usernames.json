@@ -1326,16 +1326,6 @@
                 "<p>No records were found.</p>"
             ],
             "category": "escort"
-        },
-	"Escort Directory (International)": {
-            "url": "https://www.escortdirectory.com/search?s={username}/",
-            "check_text": [
-                "profiles found for"
-            ],
-              "not_found_text": [
-                "No results found"
-            ],
-            "category": "escort"
          },
                 "Rent.Men": {
             "url": "https://rent.men/{username}",
@@ -1493,16 +1483,6 @@
               "not_found_text": [
                 "<title>Meilleures escortes",
 				"<!-- NORMAL PROFILES start -->"
-            ],
-            "category": "escort"
-        },
-	"Exotic Mozambique (Mozambique, Africa)": {
-            "url": "https://www.exoticmozambique.com/escort/{username}/",
-            "check_text": [
-                " - Acompanhantes Maputo"
-            ],
-              "not_found_text": [
-                "<title>Acompanhantes Maputo"
             ],
             "category": "escort"
         },
