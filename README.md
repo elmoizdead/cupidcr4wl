@@ -2,7 +2,7 @@
 
 # 💘 cupidcr4wl 💘
 
-**Version 2.0**
+**Version 2.1**
 
 cupidcr4wl is an open-source intelligence username and phone number search tool that crawls adult content platforms to see if a targeted account or person is present. The need for a tool of this manner derived from missing persons investigations where dating, adult video/photo platforms, and concerns of human trafficking were found relevant.
 
@@ -69,8 +69,8 @@ options:
   -u USERNAME           Enter a username or multiple usernames (separated by commas) to
                         search.
                         
-  --export-results      Search results will be exported to a text file named
-                        'cc_results.txt' in the current working directory.
+  --export-results      Search results will be exported to an HTML file named
+                        'cc_results.html' in the current working directory.
                         
   --debug               Debug mode shows all results, HTTP response codes,
                         check_text/not_found_text matches, timeouts, and errors for each
@@ -94,13 +94,13 @@ To perform a search of a phone number:
 
 &nbsp;&nbsp;&nbsp;&nbsp; ```python3 cc.py -p 1234567890```
 
->Due to how different platforms structure their URL parameters it is recommended to run your target username in multiple different variations. E.g., ```'123 456-7890'``` ```1234567890``` ```123-456-7890```
+>Due to how different platforms structure their URL parameters it is recommended to run your target username in multiple different variations. E.g., ```1234567890``` ```123-456-7890```
 
 4) To perform a search of multiple phone numbers simultaneously separate them by commas (with no spaces):
 
-&nbsp;&nbsp;&nbsp;&nbsp;```python3 cc.py -p '123 456-7890',1234567890,123-456-7890```
+&nbsp;&nbsp;&nbsp;&nbsp;```python3 cc.py -p 1234567890,123-456-7890```
 
-5) To export a copy of the search results to a text file named 'cc_results.txt' in the current working directory:
+5) To export a copy of the search results to an HTML file named 'cc_results.html' in the current working directory:
 
 &nbsp;&nbsp;&nbsp;&nbsp;```python3 cc.py -u username --export-results```
 
