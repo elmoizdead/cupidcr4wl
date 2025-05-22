@@ -729,17 +729,6 @@
                 "Page not found"
             ],
             "category": "adult video and photo"
-        },
-	"Slushy": {
-            "url": "https://www.slushy.com/{username}",
-            "check_text": [
-                "chat with",
-                "subscribe"
-            ],
-              "not_found_text": [
-                "<title>undefined - Slushy</title>"
-            ],
-            "category": "adult video and photo"
          },
                 "YouPorn (channels)": {
             "url": "https://www.youporn.com/channel/{username}/",
@@ -1076,7 +1065,8 @@
                 "Live Skype sex show with"
             ],
               "not_found_text": [
-                "page not found"
+                "page not found",
+		"<h3>Top models</h3>"
             ],
             "category": "camming"
         },
