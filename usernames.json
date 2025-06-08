@@ -30,19 +30,6 @@
             ],
             "category": "payment and gifting"
         },
-	"All Things Worn (underwear sales)": {
-            "url": "https://www.allthingsworn.com/profile/{username}",
-            "check_text": [
-                "tab=followers",
-		"tab=following",
-		">Gender:"
-            ],
-              "not_found_text": [
-                "Sell Used Panties, Underwear and",
-		"<li>This member has either changed"
-            ],
-            "category": "payment and gifting"
-        },
 	"Linktree": {
             "url": "https://linktr.ee/{username}",
             "check_text": [
@@ -350,6 +337,19 @@
                 "<strong>WHAT?"
             ],
             "category": "dating and hook-up"
+        },
+	"All Things Worn (underwear sales)": {
+            "url": "https://www.allthingsworn.com/profile/{username}",
+            "check_text": [
+                "tab=followers",
+		"tab=following",
+		">Gender:"
+            ],
+              "not_found_text": [
+                "Sell Used Panties, Underwear and",
+		"<li>This member has either changed"
+            ],
+            "category": "fetish"
         },
 	"Love Her Feet": {
             "url": "https://www.loveherfeet.com/tour/search.php?query={username}&f=all",
