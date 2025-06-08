@@ -1113,18 +1113,6 @@
             ],
             "category": "camming"
         },
-	"SOFcams": {
-            "url": "https://www.sofcams.com/{username}/",
-            "check_text": [
-                ">Real Name:</div>",
-                "Last Broadcast:</div>",
-                "Location:</div>"
-            ],
-              "not_found_text": [
-                "<h1>HTTP 404 - Page Not Found</h1>"
-            ],
-            "category": "camming"
-        },
 	"ChatMate": {
             "url": "https://chatmate.com/chat-video/{username}",
             "check_text": [
@@ -1132,17 +1120,6 @@
             ],
               "not_found_text": [
                 "<title>Page Not Found - 404"
-            ],
-            "category": "camming"
-        },
-	"RoyalCams": {
-            "url": "https://en.royalcams.com/{username}",
-            "check_text": [
-                "last broadcast",
-                "hometown"
-            ],
-              "not_found_text": [
-                "<h1>The page cannot be found</h1>"
             ],
             "category": "camming"
          },
