@@ -351,6 +351,64 @@
             ],
             "category": "fetish"
         },
+	"Tasty Slips (underwear sales)": {
+            "url": "https://tastyslips.com/en/vendors/{username}",
+            "check_text": [
+                ">About me</h2>"
+            ],
+              "not_found_text": [
+                "The website was not found. Feel free to check out tastyslips.com",
+                "<title>Not found - TastySlips</title>"
+            ],
+            "category": "fetish"
+        },
+	"SoMyMy (underwear sales)": {
+            "url": "https://somymy.com/{username}",
+            "check_text": [
+                ">Last seen",
+                ">Items of"
+            ],
+              "not_found_text": [
+                ">Sorry, that page is not found!</p>"
+            ],
+            "category": "fetish"
+        },
+	"UBIUSB (underwear sales)": {
+            "url": "https://ubisub.com/profile/{username}/",
+            "check_text": [
+                "<span>Follow</span>",
+                ">Age:",
+                ">About</a></li>"
+            ],
+              "not_found_text": [
+                ">ohh! page not found</h3>"
+            ],
+            "category": "fetish"
+        },
+	"Fetish Finder": {
+            "url": "https://app.fetishfinder.com/sellerProfile/{username}",
+            "check_text": [
+                ">Photos</div>",
+                ">Videos</div>",
+                "<span>Follow</span>"
+            ],
+              "not_found_text": [
+                "<p>Something went wrong</p>"
+            ],
+            "category": "fetish"
+        },
+	"Feet Finder": {
+            "url": "https://app.feetfinder.com/sellerProfile/{username}",
+            "check_text": [
+                ">Photos</div>",
+                ">Videos</div>",
+                "<span>Follow</span>"
+            ],
+              "not_found_text": [
+                "<p>Something went wrong</p>"
+            ],
+            "category": "fetish"
+        },
 	"Love Her Feet": {
             "url": "https://www.loveherfeet.com/tour/search.php?query={username}&f=all",
             "check_text": [
@@ -998,6 +1056,29 @@
                 "<title> Not Found - Adultism</title>"
             ],
             "category": "adult video and photo"
+        },
+	"Cams Reviews": {
+            "url": "https://www.cams.reviews/?search={username}",
+            "check_text": [
+                "webcam models that match your search."
+            ],
+              "not_found_text": [
+                ">No Webcam Models Found.</h1>",
+                "is not in our database.</h2>"
+            ],
+            "category": "camming"
+        },
+	"Kink Live": {
+            "url": "https://www.kinklive.com/models/bios/{username}/about.php",
+            "check_text": [
+                "Reviews <span>",
+                "<div>Last Online:</div>"
+            ],
+              "not_found_text": [
+                "The performer's bio you requested is not available.",
+                "Alert!"
+            ],
+            "category": "camming"
         },
 	"Chaturbate": {
             "url": "https://chaturbate.com/{username}/",
