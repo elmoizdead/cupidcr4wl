@@ -253,17 +253,6 @@
             ],
             "category": "dating and hook-up"
         },
-	"MenNation": {
-            "url": "https://www.mennation.com/profile/{username}",
-            "check_text": [
-                "/profile/"
-            ],
-              "not_found_text": [
-                "sign up for free",
-		"Find Intimate Encounters"
-            ],
-            "category": "dating and hook-up"
-        },
 	"FriendFinder-X": {
             "url": "https://www.friendfinder-x.com/profile/{username}",
             "check_text": [
