@@ -161,18 +161,6 @@
                 "<title>System Error</title>"
             ],
             "category": "social"
-        },
-	"Alua": {
-            "url": "https://alua.com/{username}",
-            "check_text": [
-                "free follow",
-                "invites you to join her on Alua!",
-                "invites you to join him on Alua!"
-            ],
-              "not_found_text": [
-                "Alua connects creators and fans through our unique social platform"
-            ],
-            "category": "social"
          },
                 "Fancentro": {
             "url": "https://fancentro.com/{username}",
