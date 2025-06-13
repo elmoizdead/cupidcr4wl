@@ -36,7 +36,7 @@
                 "og:title"
             ],
               "not_found_text": [
-                "404"
+                ":404"
             ],
             "category": "social"
         },
