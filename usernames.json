@@ -281,7 +281,8 @@
                 "/member-profile/"
             ],
               "not_found_text": [
-                "<p>It seems we can"
+                "<p>It seems we can",
+		"casino"
             ],
             "category": "dating and hook-up"
         },
