@@ -1,7 +1,7 @@
 {
     "websites": {
 	"Cash App": {
-            "url": "https://cash.app/${username}",
+            "url": "https://cash.app/$chicmom3}",
             "check_text": [
                 "on Cash App</title>"
             ],
@@ -11,7 +11,7 @@
             "category": "payment and gifting"
         },
 	"Venmo": {
-            "url": "https://account.venmo.com/u/{username}",
+            "url": "https://account.venmo.com/u/{chicmom3}",
             "check_text": [
                 "robots"
             ],
@@ -21,7 +21,7 @@
             "category": "payment and gifting"
         },
 	"Buy Me A Coffee": {
-            "url": "https://buymeacoffee.com/{username}",
+            "url": "https://buymeacoffee.com/{chicmom3}",
             "check_text": [
                 "og:title"
             ],
@@ -41,7 +41,7 @@
             "category": "social"
         },
 	"Milkshake": {
-            "url": "https://msha.ke/{username}/",
+            "url": "https://msha.ke/{chicmom3}/",
             "check_text": [
                 "Milkshake Website Builder</title>"
             ],
@@ -51,7 +51,7 @@
             "category": "social"
         },
 	"Get All My Links": {
-            "url": "https://getallmylinks.com/{username}",
+            "url": "https://getallmylinks.com/{chicmom3}",
             "check_text": [
                 "<title>GetAllMyLinks"
             ],
@@ -61,7 +61,7 @@
             "category": "social"
         },
 	"All My Links": {
-            "url": "https://allmylinks.com/{username}",
+            "url": "https://allmylinks.com/{chicmom3}",
             "check_text": [
                 "| AllMyLinks</title>",
 		"profile-username profile-page"
@@ -83,7 +83,7 @@
             "category": "social"
          },
                 "Reddit": {
-            "url": "https://www.reddit.com/user/{username}/",
+            "url": "https://www.reddit.com/user/{chicmom3}/",
             "check_text": [
                 "follow",
                 "posts",
@@ -97,7 +97,7 @@
             "category": "social"
         },
 	"Snapchat": {
-            "url": "https://snapchat.com/add/{username}",
+            "url": "https://snapchat.com/add/{chicmom3}",
             "check_text": [
                 "Header_displayNameText",
                 "Add me on snapchat!"
@@ -109,7 +109,7 @@
             "category": "social"
         },
 	"Telegram": {
-            "url": "https://t.me/{username}",
+            "url": "https://t.me/{chicmom3}",
             "check_text": [
                 "tgme_profile_title",
 		"tgme_page_extra"
@@ -153,7 +153,7 @@
             "category": "social"
         },
 	"Fur Affinity": {
-            "url": "https://www.furaffinity.net/user/{username}",
+            "url": "https://www.furaffinity.net/user/{chicmom3}",
             "check_text": [
                 "<title>Userpage of"
             ],
@@ -163,7 +163,7 @@
             "category": "social"
          },
                 "Fancentro": {
-            "url": "https://fancentro.com/{username}",
+            "url": "https://fancentro.com/{chicmom3}",
             "check_text": [
                 "Subscribe",
 		">followers"
@@ -174,7 +174,7 @@
             "category": "social"
         },
 	"Clapper App": {
-            "url": "https://www.clapperapp.com/{username}",
+            "url": "https://www.clapperapp.com/{us}",
             "check_text": [
                 "following",
                 "followers",
@@ -186,7 +186,7 @@
             "category": "social"
          },
 		"Tinder": {
-            "url": "https://www.tinder.com/@{username}",
+            "url": "https://www.tinder.com/@chicmom3}",
             "check_text": [
                 "(@{username}) | Tinder</title>",
                 "Tinder</title><meta"
@@ -198,7 +198,7 @@
             "category": "dating and hook-up"
         },
 	"Swapfinder": {
-            "url": "https://swapfinder.com/profile/{username}",
+            "url": "https://swapfinder.com/profile/{chicmom3}",
             "check_text": [
                 "Profile on Swapfinder.com</title>"
             ],
@@ -209,7 +209,7 @@
             "category": "dating and hook-up"
         },
 	"Date-Fans": {
-            "url": "https://date-fans.com/profile/{username}",
+            "url": "https://date-fans.com/profile/{chicmom3}",
             "check_text": [
                 "| Date-Fans</title>"
             ],
@@ -219,9 +219,9 @@
             "category": "dating and hook-up"
         },
 	"Tagged": {
-            "url": "https://www.tagged.com/{username}",
+           }",
             "check_text": [
-                "https://tagged.com/{username}",
+                "https://tagged.com/{chicmom3}",
                 "robots"
             ],
               "not_found_text": [
@@ -232,7 +232,7 @@
             "category": "dating and hook-up"
          },
                 "live.Xdating": {
-            "url": "https://live.xdating.com/{username}/bio",
+            "url": "https://live.xdating.com/{chicmom3}/bio",
             "check_text": [
                 "followers"
             ],
@@ -242,7 +242,7 @@
             "category": "dating and hook-up"
         },
 	"FriendFinder-X": {
-            "url": "https://www.friendfinder-x.com/profile/{username}",
+            "url": "https://www.friendfinder-x.com/profile/{chicmom3}",
             "check_text": [
                 ">Profile</a>"
             ],
@@ -255,7 +255,7 @@
             "category": "dating and hook-up"
         },
 	"BDSM Singles": {
-            "url": "https://www.bdsmsingles.com/members/{username}",
+            "url": "https://www.bdsmsingles.com/members/{chicmom3}",
             "check_text": [
                 "<title>Profile"
             ],
@@ -317,7 +317,7 @@
             "category": "dating and hook-up"
         },
 	"All Things Worn (underwear sales)": {
-            "url": "https://www.allthingsworn.com/profile/{username}",
+            "url": "https://www.allthingsworn.com/profile/{chicmom3}",
             "check_text": [
                 "tab=followers",
 		"tab=following",
@@ -364,7 +364,7 @@
             "category": "fetish"
         },
 	"Fetish Finder": {
-            "url": "https://app.fetishfinder.com/sellerProfile/{username}",
+            "url": "https://app.fetishfinder.com/sellerProfile/{chicmom3}",
             "check_text": [
                 ">Photos</div>",
                 ">Videos</div>",
@@ -376,7 +376,7 @@
             "category": "fetish"
         },
 	"Feet Finder": {
-            "url": "https://app.feetfinder.com/sellerProfile/{username}",
+            "url": "https://app.feetfinder.com/sellerProfile/{chicmom3}",
             "check_text": [
                 ">Photos</div>",
                 ">Videos</div>",
@@ -443,7 +443,7 @@
             "category": "adult video and photo"
         },
 	"Pornzog": {
-            "url": "https://pornzog.com/pornstar/{username}/",
+            "url": "https://pornzog.com/pornstar/{chicmom3}/",
             "check_text": [
                 ">Aliases:",
                 ">Birth Date:",
@@ -456,7 +456,7 @@
             "category": "adult video and photo"
         },
 	"Tube Galore (pornstars)": {
-            "url": "https://www.tubegalore.com/pornstar/{username}",
+            "url": "https://www.tubegalore.com/pornstar/{chicmom3}",
             "check_text": [
                 "results found",
                 "1</a>"
@@ -467,7 +467,7 @@
             "category": "adult video and photo"
         },
 	"Tube Galore (channels)": {
-            "url": "https://www.tubegalore.com/source/{username}",
+            "url": "https://www.tubegalore.com/source/{chicmom3}",
             "check_text": [
                 "results found",
                 "1</a>"
@@ -478,7 +478,7 @@
             "category": "adult video and photo"
         },
 	"Shesfreaky": {
-            "url": "https://www.shesfreaky.com/profile/{username}/",
+            "url": "https://www.shesfreaky.com/profile/{chicmom3}/",
             "check_text": [
                 "views</p>"
             ],
@@ -497,8 +497,8 @@
             ],
             "category": "adult video and photo"
         },
-	"RealGfPorn (user)": {
-            "url": "https://www.realgfporn.com/user/{username}",
+	"RealGfPorn (chicmom3)": {
+            "url": "https://www.realgfporn.com/user/{chicmom3}",
             "check_text": [
                 "Profile - Real Girlfriend Porn</title>"
             ],
@@ -528,7 +528,7 @@
             "category": "adult video and photo"
         },
 	"Fansify": {
-            "url": "https://fansify.co.uk/{username}",
+            "url": "https://fansify.co.uk/{chicmom3}",
             "check_text": [
                 "'s profile</title>"
             ],
@@ -538,7 +538,7 @@
             "category": "adult video and photo"
         },
 	"Pornhub (pornstars)": {
-            "url": "https://www.pornhub.com/pornstar/{username}",
+            "url": "https://www.pornhub.com/pornstar/{chicmom3}",
             "check_text": [
                 "<div id=\"avatarPicture\">",
 		"Subscribers:",
@@ -570,7 +570,7 @@
             "category": "adult video and photo"
          },
         "Pornhub (users)": {
-            "url": "https://www.pornhub.com/users/{username}",
+            "url": "https://www.pornhub.com/users/{chicmom3}",
             "check_text": [
                 "<title>{username}",
                 "Profile - Pornhub.com</title>"
@@ -599,7 +599,7 @@
             "category": "adult video and photo"
          },
         "XVIDEOS (pornstars)": {
-            "url": "https://www.xvideos.com/pornstars/{username}",
+            "url": "https://www.xvideos.com/pornstars/{chicmom3}",
             "check_text": [
                 "<title>{username} - Channel page - XVIDEOS.COM</title>",
                 "<span>Check out {username}",
@@ -616,7 +616,7 @@
             "category": "adult video and photo"
          },
         "XVIDEOS (users/channels)": {
-            "url": "https://www.xvideos.com/{username}",
+            "url": "https://www.xvideos.com/{chicmom3}",
             "check_text": [
                 "<title>{username} - Channel page - XVIDEOS.COM</title>",
                 "<span>Check out {username}",
@@ -738,7 +738,7 @@
             "category": "adult video and photo"
          },
                 "XHAMSTER (users)": {
-            "url": "https://www.xhamster.com/users/{username}",
+            "url": "https://www.xhamster.com/users/{chicmom3}",
             "check_text": [
                 "{username}",
                 "xHamster</title>"
@@ -1360,7 +1360,7 @@
             "category": "escort"
         },
 	"Cowboys4Angels": {
-            "url": "https://cowboys4angels.com/cowboys/{username}/",
+            "url": "https://cowboys4angels.com/cowboys/{chicmom3}/",
             "check_text": [
                 "<h1>About",
                 "View His Rates</div>"
@@ -1484,7 +1484,7 @@
             "category": "escort"
          },
                 "tryst.link": {
-            "url": "https://tryst.link/escort/{username}",
+            "url": "https://tryst.link/escort/{chicmom3}",
             "check_text": [
                 "#photos"
             ],
@@ -1785,7 +1785,7 @@
             "category": "escort"
         },
 	"What Happens In Vegas Stays (Las Vegas, NV)": {
-            "url": "https://www.whathappensinvegasstays.com/?s={username}",
+            "url": "https://www.whathappensinvegasstays.com/?s={chicmom3}",
             "check_text": [
                 "search-results"
             ],
@@ -1795,7 +1795,7 @@
             "category": "escort"
         },
 	"Party Girls LV (Las Vegas, NV)": {
-            "url": "https://partygirlslv.com/?s={username}&post_type=model",
+            "url": "https://partygirlslv.com/?s={chicmom3}&post_type=model",
             "check_text": [
                 ">Search Results for:"
             ],
